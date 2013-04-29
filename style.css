@@ -1,0 +1,120 @@
+/*
+Theme Name: Octopod Games
+Description: Child theme for the wp-boostrap theme 
+Author: Octopodgames
+Template: the-bootstrap
+*/
+
+@import url("../the-bootstrap/style.css");
+
+img {
+	max-width: auto;
+	width: auto9;
+	height: auto;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+#SlideDeck-36-frame{
+width:100% !important;
+margin-top:-20px;
+}
+
+#SlideDeck-36{
+width:100% !important ;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+	position: absolute;
+	margin-top: 3%;
+}
+
+.label {
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+margin-top: 15px;
+}
+
+.navbar-inner {
+box-shadow: 0 6px 8px rgba(0, 0, 0, 0.065);
+}
+
+.navbar-inverse .nav li.dropdown.open>.dropdown-toggle, .navbar-inverse .nav li.dropdown.active>.dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle {
+background-color: #0088cc;
+color: rgb(0, 0, 0);
+}
+
+.carousel-caption p {
+margin-bottom: 20px ;
+}
+
+.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+Color: #0088cc;
+}
+.carousel-inner {
+overflow: hidden;
+width: 105.25%;
+position: relative;
+right: 2.55%;
+}
+
+.carousel {
+position: relative;
+margin-bottom: 20px;
+line-height: 1;
+top: -18px;
+}
+
+.navbar .nav {
+	position: relative;
+	left: 0;
+	display: block;
+	float: right;
+	margin: 0 10px 0 0;
+	margin-top:-5px;
+} 
+
+.navbar-inverse .navbar-inner {
+background-color: rgb(255, 255, 255);
+background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255));
+border-color: rgb(255, 255, 255);
+
+} 
+
+.navbar-inverse .nav>li>a {
+	color: rgb(0, 0, 0);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+}
+
+a .hover{
+color: rgb(0,0,0);
+}
+
+#header-image, .entry-content {
+	margin-bottom: -55px;
+}
+
+body, html {
+background-image: url(http://amedenlaw.com/wp-content/themes/Karma/images/body-backgrounds/darkdenim3.png) !important;
+background-position: left top !important;
+background-repeat: repeat !important;
+}
+
+body {
+line-height: 1;
+background: #f4f4f2;
+min-width: 1003px;
+margin: 0;
+}
+
+#header-image {
+display: block;
+width: 250px;
+}
+
+.navbar {
+overflow: visible;
+margin-bottom: 20px;
+position: relative;
+z-index: 1;
+}
