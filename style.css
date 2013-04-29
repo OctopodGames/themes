@@ -1,6 +1,6 @@
 /*
 Theme Name: Octopod Games
-Description: Child theme for the wp-boostrap theme 
+Description: Child theme for the the-boostrap theme 
 Author: Octopodgames
 Template: the-bootstrap
 */
@@ -9,7 +9,7 @@ Template: the-bootstrap
 
 img {
 	max-width: auto;
-	width: auto9;
+	width: auto;
 	height: auto;
 	vertical-align: middle;
 	border: 0;
@@ -49,7 +49,7 @@ margin-bottom: 20px ;
 }
 
 .navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
-Color: #0088cc;
+color: #0088cc;
 }
 .carousel-inner {
 overflow: hidden;
